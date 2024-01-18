@@ -2,7 +2,7 @@ import requests
 from multiprocessing import Pool, Manager, freeze_support
 import time
 
-weather = {}
+weather = {"Ottawa": 25.0}
 
 # Get weather data from api single processing
 def get_weather(api_key, city):
